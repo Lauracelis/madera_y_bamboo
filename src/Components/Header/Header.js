@@ -7,8 +7,8 @@ class Header extends React.Component {
           <div>Logo</div>
           <nav>
             <a href="#/">Home</a>
-            <a href="#/">Blog</a>
-            <a href="#/">Photos</a>
+            <a href="#/">sobre nosotros</a>
+            <a href="#/">promociones</a>
             <a href="#/">Contact</a>
           </nav>
         </header>
