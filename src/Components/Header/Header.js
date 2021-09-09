@@ -4,7 +4,7 @@ class Header extends React.Component {
     render() {
       return (
         <header>
-          <div>Logo</div>
+          <div>Madera & Bamboo</div>
           <nav>
             <a href="#/">Home</a>
             <a href="#/">sobre nosotros</a>
