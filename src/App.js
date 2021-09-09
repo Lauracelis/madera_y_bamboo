@@ -2,18 +2,29 @@
 import './App.css';
 import React from 'react'
 import Header from './Components/Header/Header'
-import PPage from './Components/PrincipalPage/PPage'
+import PPage from './Pages/PrincipalPage/PPage'
+import About from './Pages/AboutUs/About'
+import Services from './Pages/Services/Services'
+import Contact from './Pages/Contact/Contact'
+
+
 import Footer from './Components/Footer/Footer'
-import {BrowserRouter as Router } from 'react-router-dom';
+import {BrowserRouter as Router,Switch,Route } from 'react-router-dom';
+
+
 
 function App() {
   return (
     <Router>
-    <div className="App">
       <Header/>
-      <PPage/>
+      <Switch>
+      <Route path='/' exact component={PPage}/>
+      <Route path='/about' exact component={About}/>
+      <Route path='/services' exact component={Services}/>
+      <Route path='/contact' exact component={Contact}/>
+      </Switch>
       <Footer/>
-    </div>
+    
     </Router>
   );
 }
