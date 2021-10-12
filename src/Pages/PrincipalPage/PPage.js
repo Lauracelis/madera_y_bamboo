@@ -1,12 +1,16 @@
 import React from "react";
-/*import maderanombre from '././Utils/Images/maderanombre.png'*/
+import uno from '../../Utils/Images/uno.jpg';
+import './Ppage_styles.css';
 
-const PPage = () => (
+const Ppage = () => (
+
+
   <>
-    <div className="Scroll">
-      {/*<img src={maderanombre} alt="imagen_principal"/>*/}
-      <p>IMAGEN MADERA CON EL NOMBRE</p>
-    </div>
+    <div>
+      <img src={uno} className="Scroll" alt="imagen_principal"/>
+      <p>BIENVENIDO</p>
+      </div>
+
     <section className="puntos_a_favor">
       <div className="punto1">
        <p>punto 1</p>
@@ -72,4 +76,4 @@ const PPage = () => (
   </>  
   )
   
-  export default PPage;
+  export default Ppage;

@@ -2,7 +2,7 @@
 import './App.css';
 import React from 'react'
 import Header from './Components/Header/Header'
-import PPage from './Pages/PrincipalPage/PPage'
+import Ppage from './Pages/PrincipalPage/Ppage'
 import About from './Pages/AboutUs/About'
 import Services from './Pages/Services/Services'
 import Contact from './Pages/Contact/Contact'
@@ -18,7 +18,7 @@ function App() {
     <Router>
       <Header/>
       <Switch>
-      <Route path='/' exact component={PPage}/>
+      <Route path='/' exact component={Ppage}/>
       <Route path='/about' exact component={About}/>
       <Route path='/services' exact component={Services}/>
       <Route path='/contact' exact component={Contact}/>
