@@ -7,6 +7,8 @@ import {
     NavBtn,
     NavBtnLink
 } from './HeaderElements'
+import logo from '../../Utils/Images/logo.png'
+import './Header.css'
 
 class Header extends React.Component {
     render() {
@@ -14,7 +16,7 @@ class Header extends React.Component {
         <header>
           <Nav>
           <NavLink to="/">
-          <h1>logo</h1>
+          <img src={logo} className="LOGO" alt="Logo"/>
           </NavLink>
           <Bars/>
           <NavMenu>

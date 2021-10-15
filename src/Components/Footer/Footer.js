@@ -1,10 +1,11 @@
 import React from 'react';
-
+import logo from '../../Utils/Images/logo.png'
+import './Footer_styled.css'
 
 const Footer=() => {
 return(
     <div className="F">
-      <p>Bammbo & Madera logo</p>
+    <img src={logo} className="logo" alt="Logo"/>
     </div>
 )
 }

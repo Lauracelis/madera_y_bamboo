@@ -60,14 +60,12 @@ margin-right:-24px;
 
 }
 
-
 @media screen and (max-width:768px){
     display:none;
 }
 
 }
 `
-
 export const NavBtn = styled.nav`
 dsiplay:flex;
 align-items:center;
