@@ -1,5 +1,5 @@
 import React from "react";
-import uno from '../../Utils/Images/uno.jpg';
+import cero from '../../Utils/Images/cero.jpg';
 import './Ppage_styles.css';
 
 const Ppage = () => (
@@ -7,7 +7,7 @@ const Ppage = () => (
 
   <>
     <div>
-      <img src={uno} className="Scroll" alt="imagen_principal"/>
+      <img src={cero} className="Scroll" alt="imagen_principal"/>
       <p>BIENVENIDO</p>
       </div>
 

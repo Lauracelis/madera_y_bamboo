@@ -3,26 +3,36 @@ import {NavLink as Link} from 'react-router-dom'
 import {FaBars} from 'react-icons/fa'
 
 export const Nav = styled.nav`
-background:#e0ccb5;
-height:80px;
+background:#fff8ee;
+height:70px;
 display:flex;
 justify-content:space-between;
 padding:0.5rem calc((100vw-1000px)/2);
 z-index:10;
+
+
+}
 `
 
 export const NavLink = styled(Link)`
-color:#e0cce1;
+color:#2c1600;
 display:flex;
 align-items:center;
 text-decoration:none;
 padding: 0.1 rem;
 height:100%;
 cursor:pointer;
+margin:10px;
 
 &.active{
-    color:#15cdfc;
+    color:#d4c9b9;
 }
+
+&:hover{
+    transition: all 0.2s ease-in-out;
+    background:#d4c9b9;
+}
+
 `
 
 
@@ -30,6 +40,7 @@ cursor:pointer;
 export const Bars = styled(FaBars)`
 display:none;
 color:#fff;
+
 
 @media screen and (max-width:768px){
     display:block;
@@ -47,15 +58,22 @@ display:flex;
 align-items:center;
 margin-right:-24px;
 
+}
+
+
 @media screen and (max-width:768px){
     display:none;
 }
 
+}
 `
+
 export const NavBtn = styled.nav`
 dsiplay:flex;
 align-items:center;
 margin-right:24px;
+
+
 
 @media screen and (max-width:768px){
     display:none;
@@ -65,7 +83,7 @@ export const NavBtnLink = styled(Link)`
 border-radius:4px;
 background: #fff1;
 padding:10px 22px;
-color:#fff7;
+color:#2c1600;
 border:none;
 outline:none;
 cursor:pointer;
@@ -74,6 +92,6 @@ text-decoration:none;
 
 &:hover{
     transition: all 0.2s ease-in-out;
-    background:#fff5;
+    background:#cbaa;
 }
 `
