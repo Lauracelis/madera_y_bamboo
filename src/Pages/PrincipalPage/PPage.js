@@ -71,7 +71,7 @@ const Ppage = () => (
        <ul className="info">
        <li>
        <span>{/*<img src={} className="icono" alt="Ubicación">/*/}</span>
-       <span>Veenecia<br>
+       <span>Venecia<br>
        Bogotá,Colombia</br>
        calle 42b #72h sur 15</span>
        </li>
