@@ -1,13 +1,13 @@
 import React from 'react';
-/*import Header from '.../Header.js';*/
 
-export default function Contact(); {
-    Return(
-        <>
-            <Head>
+
+export default function Contact() {
+    return(
+        <div>
+            <div>
                 <title>Comunicate </title>
                 <ink rel="icon" href="/favicon.ico" />
-            </Head>
+            </div>
 
             <h1>Contact Us</h1>
             <p>lorem ipsum</p>
@@ -29,6 +29,6 @@ export default function Contact(); {
                 </form>
 
             </div>
-        </>
+        </div>
     )
 }
